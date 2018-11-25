@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type = "text/javascript" src = "https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+<h3>Simple transitions</h3>
+<script>
+    var t = d3.transition()
+        .duration(5000);
+    d3.select("body").transition(t).style("background-color", "blue");
+</script>
+</body>
+</html>
